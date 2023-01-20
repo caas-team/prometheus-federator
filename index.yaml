@@ -13,7 +13,7 @@ entries:
       catalog.cattle.io/release-name: prometheus-federator
     apiVersion: v2
     appVersion: 0.2.0-rc3
-    created: "2023-01-20T05:10:02.7010691+01:00"
+    created: "2023-01-20T14:35:28.7798367+01:00"
     dependencies:
     - condition: helmProjectOperator.enabled
       name: helmProjectOperator
@@ -34,7 +34,7 @@ entries:
       catalog.cattle.io/release-name: rancher-project-monitoring
     apiVersion: v2
     appVersion: 0.59.1
-    created: "2023-01-20T05:10:02.7303693+01:00"
+    created: "2023-01-20T14:35:28.8080751+01:00"
     dependencies:
     - condition: grafana.enabled
       name: grafana
@@ -61,4 +61,4 @@ entries:
     urls:
     - https://caas-team.github.io/prometheus-federator/rancher-project-monitoring-0.2.0-rc3.tgz
     version: 0.2.0-rc3
-generated: "2023-01-20T05:10:02.695561+01:00"
+generated: "2023-01-20T14:35:28.7738825+01:00"
