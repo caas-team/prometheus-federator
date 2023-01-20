@@ -2,5 +2,5 @@ apiVersion: v2
 appVersion: 0.2.0-rc3
 description: Prometheus Federator
 icon: https://raw.githubusercontent.com/rancher/prometheus-federator/main/assets/logos/prometheus-federator.svg
-name: prometheus-federator
+name: prometheus-federator-caas
 version: 0.2.0-rc3
