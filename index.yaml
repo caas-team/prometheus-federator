@@ -4,22 +4,16 @@ entries:
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/display-name: Prometheus Federator
-      catalog.cattle.io/kube-version: '>=1.16.0-0'
       catalog.cattle.io/namespace: cattle-monitoring-system
       catalog.cattle.io/os: linux,windows
       catalog.cattle.io/permits-os: linux,windows
       catalog.cattle.io/provides-gvr: helm.cattle.io.projecthelmchart/v1alpha1
-      catalog.cattle.io/rancher-version: '>= 2.6.5-0 <= 2.6.100-0'
       catalog.cattle.io/release-name: prometheus-federator
     apiVersion: v2
     appVersion: 0.2.0-rc3
-    created: "2023-01-20T14:35:28.7798367+01:00"
-    dependencies:
-    - condition: helmProjectOperator.enabled
-      name: helmProjectOperator
-      repository: file://./charts/helmProjectOperator
+    created: "2023-01-20T14:45:15.520675+01:00"
     description: Prometheus Federator
-    digest: 3cffc7aaebfc27177747d41c79ce91aa355c960aa15c61abf046e0e672acac7b
+    digest: f895b2e4c7eb67a183c1fd9c76b8c10c5979687fcc6d77933bfd600506fd816d
     icon: https://raw.githubusercontent.com/rancher/prometheus-federator/main/assets/logos/prometheus-federator.svg
     name: prometheus-federator
     urls:
@@ -34,16 +28,12 @@ entries:
       catalog.cattle.io/release-name: rancher-project-monitoring
     apiVersion: v2
     appVersion: 0.59.1
-    created: "2023-01-20T14:35:28.8080751+01:00"
-    dependencies:
-    - condition: grafana.enabled
-      name: grafana
-      repository: file://./charts/grafana
+    created: "2023-01-20T14:45:15.5486345+01:00"
     description: Collects several related Helm charts, Grafana dashboards, and Prometheus
       rules combined with documentation and scripts to provide easy to operate end-to-end
       Kubernetes cluster monitoring with Prometheus. Depends on the existence of a
       Cluster Prometheus deployed via Prometheus Operator
-    digest: 30cff9f5a5bbe9daca714f0dc5475641bf3fa70147f1137f131f5de8506cad4e
+    digest: 08f1067d42223a89a589ca70d3f27daa454c249afdacab6b197056ccd250e3c5
     home: https://github.com/prometheus-operator/kube-prometheus
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -61,4 +51,4 @@ entries:
     urls:
     - https://caas-team.github.io/prometheus-federator/rancher-project-monitoring-0.2.0-rc3.tgz
     version: 0.2.0-rc3
-generated: "2023-01-20T14:35:28.7738825+01:00"
+generated: "2023-01-20T14:45:15.5158304+01:00"

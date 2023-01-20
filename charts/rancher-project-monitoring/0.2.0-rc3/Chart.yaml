@@ -6,10 +6,6 @@ annotations:
   catalog.cattle.io/release-name: rancher-project-monitoring
 apiVersion: v2
 appVersion: 0.59.1
-dependencies:
-- condition: grafana.enabled
-  name: grafana
-  repository: file://./charts/grafana
 description: Collects several related Helm charts, Grafana dashboards, and Prometheus
   rules combined with documentation and scripts to provide easy to operate end-to-end
   Kubernetes cluster monitoring with Prometheus. Depends on the existence of a Cluster
