@@ -1,9 +1,3 @@
-annotations:
-  catalog.cattle.io/certified: rancher
-  catalog.cattle.io/display-name: Project Monitoring
-  catalog.cattle.io/hidden: "true"
-  catalog.cattle.io/permits-os: linux,windows
-  catalog.cattle.io/release-name: rancher-project-monitoring
 apiVersion: v2
 appVersion: 0.59.1
 description: Collects several related Helm charts, Grafana dashboards, and Prometheus
